@@ -1,0 +1,38 @@
+{
+  "name": "npm-high-impact-cli",
+  "version": "0.0.1",
+  "description": "Fetch the npm packages a user is a maintainer of and figure out which of them (if any) are considered high-impact",
+  "main": "./src/high-impact.js",
+  "bin": {
+    "npm-high-impact": "./src/cli.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=14.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "popular",
+    "high",
+    "impact"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^11.0.0",
+    "npm-high-impact": "^1.0.0",
+    "undici": "^5.12.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "semi": false,
+    "bracketSpacing": false
+  }
+}
