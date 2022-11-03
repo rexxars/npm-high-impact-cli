@@ -6,7 +6,7 @@ Uses [npm-high-impact](https://github.com/wooorm/npm-high-impact) for the source
 
 ## Use
 
-This package is [ESM only][esm] and requires Node.js version 14.14 or above.
+This package is ESM only and requires Node.js version 14.14 or above.
 
 ```sh
 npx npm-high-impact-cli <username>
