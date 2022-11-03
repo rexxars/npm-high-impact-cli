@@ -1,6 +1,6 @@
 {
   "name": "npm-high-impact-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Fetch the npm packages a user is a maintainer of and figure out which of them (if any) are considered high-impact",
   "main": "./src/high-impact.js",
   "bin": {
